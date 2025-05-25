@@ -55,6 +55,8 @@ Selected values:
 
 These values yield a pulse duration of approximately 0.5 ms.<br>
 ### 4. SIMULATION ANALYSIS
+#### diagram<br>
+![image](https://github.com/user-attachments/assets/053e9390-ceba-4e3c-b5a6-9bfb1ee1f6ba)<br>
 ### <ins>Transient Analysis
 Used to verify timing behaviour of the output signal in response to various trigger signals
 
@@ -99,17 +101,9 @@ Used to verify timing behaviour of the output signal in response to various trig
     or invalid re-triggering.<br>
     Overall, the results validate that the 555 timer in monostable mode is well-suited for timing, pulse generation, and event-response applications, where a precise and non- 
     retriggerable pulse is required after each valid input trigger.<br>
+    
 ### conclusion
-    The NE555 timer, when configured in monostable mode, demonstrates accurate and consistent pulse generation in response to clean, falling-edge trigger signals. The simulation 
-    confirms that the circuit successfully produces a 0.5 ms output pulse, as determined by the selected resistor (R) and capacitor (C) values, according to the standard timing<br> 
-    formula:<br>
-    t=
-    1.1
-    ×
-    𝑅
-    ×
-    𝐶
-    T=1.1×R×C<br>
+   
 During testing and analysis, the timer exhibited non-retriggerable behavior, meaning it ignores any subsequent trigger pulses while the output is HIGH. This ensures stable and 
     predictable timing, making the 555 timer highly suitable for digital timing, delay, and pulse-generation applications.<br>
     The circuit's response was further evaluated under different trigger scenarios:
